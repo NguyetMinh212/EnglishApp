@@ -15,11 +15,12 @@ public class Main extends javax.swing.JFrame {
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         menu.setVisible(true);
         resetSelection();
-        createNewDeck.setVisible(true);
+        firstSee1.setVisible(true);
         createNewDeck.setDeckHome(deckHome);
         deckList.setDeckHome(deckHome);
         deckHome.setStudy(study);
         study.setDeckList(deckList);
+        
         
         menu.addEventCreate(new ActionListener() {
             @Override
@@ -55,12 +56,14 @@ public class Main extends javax.swing.JFrame {
         deckHome.setVisible(false);
         study.setVisible(false);
         testYourself.setVisible(false);
+        firstSee1.setVisible(false);
     }
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        firstSee1 = new menu.FirstSee();
         testYourself = new menu.TestYourself();
         study = new menu.Study();
         deckHome = new menu.DeckHome();
@@ -70,6 +73,7 @@ public class Main extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(firstSee1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 620, 510));
         getContentPane().add(testYourself, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 620, 510));
         getContentPane().add(study, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 620, 510));
         getContentPane().add(deckHome, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 620, 510));
@@ -93,6 +97,7 @@ public class Main extends javax.swing.JFrame {
     private menu.CreateNewDeck createNewDeck;
     private menu.DeckHome deckHome;
     private menu.DeckList deckList;
+    private menu.FirstSee firstSee1;
     private menu.Menu menu;
     private menu.Study study;
     private menu.TestYourself testYourself;
