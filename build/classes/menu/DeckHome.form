@@ -190,6 +190,7 @@
           <Image iconType="3" name="/icon/icons8-available-updates-50.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Update"/>
+        <Property name="focusPainted" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
