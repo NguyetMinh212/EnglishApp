@@ -57,10 +57,10 @@ public class CreateNewDeck extends javax.swing.JPanel {
         setBackground(new java.awt.Color(192, 219, 234));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Sitka Text", 1, 20)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 51));
-        jLabel1.setText("New Deck Name");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, -1, -1));
+        jLabel1.setText("New Deck Name:");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 140, -1, -1));
 
         nametextfield.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         nametextfield.setBorder(null);

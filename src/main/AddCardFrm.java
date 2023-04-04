@@ -66,7 +66,7 @@ public class AddCardFrm extends javax.swing.JFrame {
 
         fronttxt.setBackground(new java.awt.Color(212, 229, 246));
         fronttxt.setColumns(20);
-        fronttxt.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
+        fronttxt.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         fronttxt.setLineWrap(true);
         fronttxt.setRows(5);
         fronttxt.setWrapStyleWord(true);
@@ -79,6 +79,7 @@ public class AddCardFrm extends javax.swing.JFrame {
 
         backtxt.setBackground(new java.awt.Color(212, 229, 246));
         backtxt.setColumns(20);
+        backtxt.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         backtxt.setLineWrap(true);
         backtxt.setRows(5);
         backtxt.setWrapStyleWord(true);
@@ -155,7 +156,7 @@ public class AddCardFrm extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(65, Short.MAX_VALUE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
 
         pack();

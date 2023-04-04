@@ -59,7 +59,7 @@ public class TestYourself extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(192, 219, 234));
 
-        decktxt.setFont(new java.awt.Font("Palatino Linotype", 1, 24)); // NOI18N
+        decktxt.setFont(new java.awt.Font("Ravie", 1, 24)); // NOI18N
         decktxt.setForeground(new java.awt.Color(153, 102, 0));
         decktxt.setText("Name");
 
